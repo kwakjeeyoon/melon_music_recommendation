@@ -1,0 +1,33 @@
+trainer:
+  data_path: '../../data/arena_mel/'
+  save_path : 'save/'
+  seed: 42
+
+default:
+  model: 'autoencoder'
+
+  # transform:
+
+  sampler_size: 0.25
+
+  dataloader:
+    batch_size: 64
+    num_workers: 0
+    shuffle : True
+  
+  optimizer:
+    name: "sgd"
+    weight_decay: 1e-5
+    momentum: 0.9
+    lr: 1e-4
+      
+  criterion: 'mse'
+
+  train:
+    max_epoch: 40
+
+
+wandb: True
+entity: no_gravity
+project: "model"
+name: 'autoencoder'

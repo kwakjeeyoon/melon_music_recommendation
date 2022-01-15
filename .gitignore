@@ -1,0 +1,11 @@
+# dataset
+data
+
+# code
+code/baseline/__pycache__
+code/baseline/save
+code/baseline/wandb
+
+# apple
+.DS_Store
+
