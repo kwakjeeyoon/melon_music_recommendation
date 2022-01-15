@@ -2,4 +2,4 @@
 Kakao arena - Melon Playlist Continuation
 
 ### train
-'python train.py --config_train train.yaml'
+```python train.py --config_train train.yaml```
